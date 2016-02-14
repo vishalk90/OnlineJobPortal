@@ -1,1 +1,2 @@
-# Online job Portal website and android app
+# Online job Portal 
+android application for online job portal
