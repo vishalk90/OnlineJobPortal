@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_margin="10dp"
+    >
+
+    <EditText
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="@string/company_name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/company_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/company_name"
+        android:ems="10"
+        android:hint="@string/company_location" />
+
+    <EditText
+        android:id="@+id/company_registration_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/company_location"
+        android:ems="10"
+        android:hint="@string/registration_number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/company_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/company_registration_number"
+        android:ems="10"
+        android:hint="@string/company_details" />
+
+    <Button
+        android:id="@+id/job_provider_register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/company_details"
+        android:text="Complete Your Registration" />
+
+</RelativeLayout>

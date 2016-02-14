@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/jobdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/jobtitle"
+        android:layout_below="@+id/jobtitle"
+        android:ems="10"
+        android:hint="@string/job_details"
+        android:singleLine="false" />
+
+    <EditText
+        android:id="@+id/designation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/jobdetails"
+        android:layout_below="@+id/jobdetails"
+        android:ems="10"
+        android:hint="@string/designation" />
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/designation"
+        android:layout_below="@+id/designation"
+        android:ems="10"
+        android:hint="@string/salary" />
+
+    <EditText
+        android:id="@+id/vacancies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/salary"
+        android:layout_alignRight="@+id/designation"
+        android:layout_below="@+id/salary"
+        android:ems="10"
+        android:hint="@string/vacancies" />
+
+    <EditText
+        android:id="@+id/catagory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vacancies"
+        android:layout_alignRight="@+id/vacancies"
+        android:layout_below="@+id/vacancies"
+        android:ems="10"
+        android:hint="@string/catagory" />
+
+    <EditText
+        android:id="@+id/deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/catagory"
+        android:layout_alignRight="@+id/catagory"
+        android:layout_below="@+id/catagory"
+        android:ems="10"
+        android:hint="@string/dead_line" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jobtitle"
+        android:layout_alignParentTop="true"
+        android:text="Please Enter Job Details"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/jobtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="@string/job_title" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/salary"
+        android:layout_toRightOf="@+id/salary"
+        android:text="INR"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/uploadbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/deadline"
+        android:layout_alignRight="@+id/deadline"
+        android:layout_below="@+id/deadline"
+        android:text="upload" />
+
+</RelativeLayout>

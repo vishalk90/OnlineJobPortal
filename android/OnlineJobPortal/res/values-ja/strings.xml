@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    
+  
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_fileexplorer">FileexplorerActivity</string>
+
+    <string name="app_name">アプリケション</string>
+    <string name="app_start">start</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bye_world">Bye bye world!</string>
+    <string name="nameofuser">ユーザ名</string>
+    <string name="firstnameofuser">First Name</string>
+    <string name="last_name_of_user">Last Name</string>
+    <string name="first_name_user">First Name</string>
+    <string name="last_name_user">Last Name</string>
+    <string name="user_email_address">Email</string>
+    <string name="user_name">ユーザ名</string>
+    <string name="user_first_name">First Name</string>
+    <string name="user_last_name">Last Name</string>
+    <string name="user_address">Address</string>
+    <string name="user_phone_number">Phone Number</string>
+    <string name="user_city">City</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="password">パスワード</string>
+    <string name="login">ログイン</string>
+    <string name="repassword">Re-Enter Password</string>
+    <string name="job_title">Job Title</string>
+    <string name="job_details">Job Details</string>
+    <string name="designation">Designation</string>
+    <string name="salary">Salary</string>
+    <string name="vacancies">Vacancies</string>
+    <string name="catagory">Catagory</string>
+    <string name="dead_line">Dead Line</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_location">Company Location</string>
+    <string name="registration_number">company\'s Registration Number</string>
+    <string name="company_details">Company Details</string>
+
+    <color name="green">#C0FF3E</color>
+    <color name="grey">#FFFFFF</color>
+
+    <string name="keyword">Type a Key Word</string>
+    <string name="username_error">まず、ユーザー名を入力してください！</string>
+    <string name="password_error">まず、パスワードを入力してください！</string>
+    <string name="login_failed">失敗したログイン</string>
+    <string name="Username_or_password_error">ユーザ名またはパスワードが間違っている</string>
+
+</resources>

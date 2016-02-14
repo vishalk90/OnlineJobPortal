@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/group1">
+        <item android:id="@+id/item1" android:showAsAction="ifRoom" android:title="options" android:icon="@android:drawable/ic_menu_more">
+            <menu>
+                <item android:id="@+id/profile" android:showAsAction="ifRoom" android:title="profile"/>
+                <item android:id="@+id/applied_jobs" android:showAsAction="ifRoom" android:title="Applied Jobs"/>
+                <item android:id="@+id/saved_jobs" android:title="Saved Jobs" android:showAsAction="ifRoom"/>
+                <item android:id="@+id/recommanded_jobs" android:title="Recommaned Jobs" android:showAsAction="ifRoom"/>
+                <item android:id="@+id/settings" android:showAsAction="ifRoom" android:title="Settings"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

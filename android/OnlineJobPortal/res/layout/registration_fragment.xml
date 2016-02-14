@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/rusername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/user_name"
+                >
+
+                <requestFocus
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/user_last_name" />
+
+            <EditText
+                android:id="@+id/rpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                 />
+
+            <EditText
+                android:id="@+id/rrpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/repassword"
+                android:inputType="textPassword"
+                 />
+
+            <EditText
+                android:id="@+id/remail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/user_email_address"
+                />
+
+            <EditText
+                android:id="@+id/raddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/user_address"
+                android:inputType="textMultiLine"
+                 />
+
+            
+            
+            <EditText
+                android:id="@+id/rphonenumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/user_phone_number"
+                android:inputType="number"
+                 />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/pcode"
+                android:ems="10"
+                android:hint="@string/user_city" />
+
+            <EditText
+                android:id="@+id/pcode"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:hint="@string/postal_code" 
+                android:layout_weight="1"
+                android:inputType="textPostalAddress"
+                
+                />
+
+				</RelativeLayout>
+            <RadioGroup
+                
+                android:id="@+id/job_type"
+                
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/job_seeker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Job Seeker"
+                     />
+
+                <RadioButton
+                    android:id="@+id/job_provider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Job Provider" />
+
+               
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:drawableRight="@android:drawable/ic_input_add"
+                />
+
+        </LinearLayout>
+   </ScrollView>
+
+</RelativeLayout>
